@@ -1,0 +1,315 @@
+@import "../Fonts/raleway/Raleway-Black.ttf";
+@import "../Fonts/raleway/Raleway-BlackItalic.ttf";
+@import "../Fonts/raleway/Raleway-Bold.ttf";
+@import "../Fonts/raleway/Raleway-BoldItalic.ttf";
+@import "../Fonts/raleway/Raleway-ExtraBold.ttf";
+@import "../Fonts/raleway/Raleway-ExtraBoldItalic.ttf";
+@import "../Fonts/raleway/Raleway-ExtraLight.ttf";
+@import "../Fonts/raleway/Raleway-ExtraLightItalic.ttf";
+@import "../Fonts/raleway/Raleway-Italic.ttf";
+@import "../Fonts/raleway/Raleway-Light.ttf";
+@import "../Fonts/raleway/Raleway-LightItalic.ttf";
+@import "../Fonts/raleway/Raleway-Medium.ttf";
+@import "../Fonts/raleway/Raleway-MediumItalic.ttf";
+@import "../Fonts/raleway/Raleway-Regular.ttf";
+@import "../Fonts/raleway/Raleway-Thin.ttf";
+@import "../Fonts/raleway/Raleway-ThinItalic.ttf";
+body{ font-family: 'Raleway','serif';padding: 0;margin: 0;background-color: #383A49;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #ffffff;
+    font-weight: 900;
+    margin-top: 0;
+}
+#header{
+    background-color: #c8427b;
+    /*height: 100vh;*/
+    position: relative;
+    min-height: 100px;
+}
+.col-md-6{width: 50%;
+    float: left;
+}
+.log-img{height: 15%;position: relative;width: 15%;padding-left: 10px;}
+#h6{    font-size: 14px;
+    padding-top: 48px;
+    float: right;
+	padding-right: 10px;
+
+}
+.col-md-3{width: 25%;}
+.col-md-8{width: 50%;}
+.container-fluid{width: 50%;margin:0 auto;}
+.container-fluids{width: 100%;float:left;background-color: #333441;}
+.banner-pointer{margin-left: 41%;}
+.banner-pointer>img{width: 50px;
+    height: 50px;}
+#content-area{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+footer{ float: left;    background-color: #333441;
+    width:100%;}
+.footer-cls{width: 50%;
+    margin: 0 auto;}
+.footer-cls>h6{    text-align: center;
+    font-size: 14px;
+     padding-top: 10px;}
+
+.search-section{
+    border: 2px solid aliceblue;
+    display: inline-block;
+    width: 100%; border-radius: 20px;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    margin-top: 2%;
+ }
+.search{       
+	width: 79%;
+    height: 48px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 2%;
+    font-size: 14px;
+    color: #7F6C6C;
+ 
+}
+.search-button{
+    float: right;
+    position: absolute;
+    height: 44px;
+    width: 128px;
+    margin-top: 2px;
+    border-radius: 19px;
+    background: #D05D84;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 4px;
+}
+.content{
+    background-color: #383A49;
+    position: relative;
+    width: 100%;
+}
+.content-inner{
+    width: 90%;
+    margin: 0 auto;}
+.col-sm-4{
+    width:22%; float: left; padding-right: 3%;padding-top: 4%;
+}
+.rows{width: 95%;height:auto;
+    box-shadow: 7px;
+    box-shadow: 1px -2px 5px 1px #000;}
+.img-art{width:100%;height:100%;}
+.col-sm-right{padding-left: 3%;
+    padding-right: 0%;}
+.artist_pro_pic{
+    width: 27px;
+    position: absolute;
+    margin-top: 19%;margin-left: 1%;
+    /*width: 254px;*/
+    /*position: absolute; */
+    /*z-index: -0000000;*/
+    /*height: 299px;*/
+}
+.row-artist{
+    height: 300px;
+    width: 100%;
+}
+.row-section {
+    width: 100%;
+    float: left;}
+.name-section{    width: 100%;
+    height: 55px;
+    background: #fff;}
+.name-section>h4{color:#2A2A33;padding-left: 10px;
+    padding-top: 18px;}
+.main{background-color: #383A49;}
+.more-search{    width: 150px;
+    margin: 0 auto;padding-top: 20px;
+    padding-bottom: 20px;}
+.more-button{height: 42px;
+    width: 150px;
+    border: none;
+    border-radius: 18px;
+    color: #fff;
+    background-color: #C8427B;}
+
+.row-artist:hover > .row-artist-hover {
+border:2px solid red;
+}
+.row-artist>.img-art:hover {position: relative;}
+.row-artist {
+    /*background-image: url(../Images/Bitmap@2x.png)!important;*/
+}
+.row-artist:hover {
+    /*background-image:url(../Images/Bitmap@2x.png);*/
+ }
+.row-artist-hover {
+   height: 300px;
+    width: 100%;
+}
+/*================== Popup code */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 110%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    /*padding: 20px;*/
+    /*border: 1px solid #888;*/
+    width: 40%;height:554px;
+}
+.album-row{padding: 0;width: 100%;float: left;}
+.modal-top{width:100%;}
+.modal-top>img{width:100%;height:250px; }
+.name-album{    width: 100%;
+    position: absolute;
+    margin-top: 16%;
+    padding-left: 1%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;}
+.inn-list{list-style-type: none;width: 100%;padding-left: 10px;
+    float: left;}
+.modal-content>.row-section>h2{color:#3B3945;margin-left: 10px;height: 8px;}
+.col-sm-1{    width: 14%;
+    height: 80px;
+    float: left;}
+.col-sm-1>img{width: 70px;height:70px;}
+.col-sm-5{width: 85%;float: left;color:#000;}
+.col-sm-5>h3{color:#3B3945;    margin-top: 20px;
+    font-size: 17px;
+    line-height: 0px;}
+.inner-col-1{    line-height: 0;
+    position: absolute;color:#7F7D89;}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+     position: absolute;
+    float: right;
+    margin-left: 37%;
+    margin-top: 1%;;
+}
+.close >img{width: 30px;}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*================== Popup code end */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.search{
+		width: 72%;
+	}
+    .col-sm-5 {width: 82%;}
+    .col-sm-5>h3{padding-left: 6%;line-height: 14px;}
+}
+@media (min-width: 480px) and (max-width: 600px) {
+    .modal-content{
+        width: 50%;
+        height: 300px;}
+    .modal-top > img{       margin-left: 9px;
+        margin-top: 8px; height: 69px;width:32%;}
+    .col-sm-1{display:none;}
+    .col-sm-5 > h3{font-size: 13px;line-height: 10px;}
+    .col-sm-5{width: 95%;}
+    .modal{padding-top: 30px;}
+    .search{
+        width: 64%;
+    }
+    span.inner-col-1 {
+        padding-left: 3%;
+    }
+    .modal-top>img{height:200px;}
+    .search-button{margin-left: 0px;width:84px;}
+    .name-album{color: #3B3945;
+        width: 50%;
+        position: relative;
+        float: right;
+        margin-right: 12%;
+        margin-top: 10%;    font-size: 15px;
+    }
+    .row-section>h2{font-size: 15px;}
+    .close{margin-left: 44%;}
+    .modal-content>.row-section>h2{
+        position: absolute;
+    }
+    .close >img{width:22px;}
+}
+@media (min-width: 601px) and (max-width: 767px) {
+    .modal-content{
+        width: 50%;
+        height: 300px;}
+    .modal-top > img{  margin-left: 9px;
+        margin-top: 8px;
+        height: 92px;
+        width: 41%;}
+    .col-sm-1{display:none;}
+    .col-sm-5 > h3{font-size: 13px;line-height: 10px;}
+    .col-sm-5{width: 95%;}
+    .modal{padding-top: 30px;}
+    .search{
+        width: 65%;
+    }
+    .search-button{margin-left: 0px;width:17%;}
+    .name-album{    color: #3B3945;
+        width: 42%;
+        position: relative;
+        float: right;
+        margin-right: 12%;
+        margin-top: 10%;
+        font-size: 15px;
+    }
+    .row-section>h2{font-size: 15px;}
+    .close{margin-left: 45%;}
+    .modal-content>.row-section>h2{
+        position: absolute;
+    }
+    .close >img{width:22px;}
+}
+
+@media (max-width: 480px) {
+		.col-sm-4{
+		width:100%;
+	}
+	.mob-btn{
+		width: 97%;
+	}
+	.search{
+		width: 61%;
+	}
+	.search-button{
+		
+		margin-top: 2px;
+		right: 2px;margin-right:118px;width: 90px;
+	}
+    .col-sm-5>h3{line-height: 12px;}
+    /*================== Popup code start ================== */
+    .modal-content{width:70%;margin: 0 auto;height:280px;}
+    .modal-top{float:left;}
+    .close{margin-left: 60%;}
+    .modal-top > img{height: 100px;}
+    .col-sm-1{display:none;}
+    .col-sm-5 > h3{font-size: 14px;}
+    .col-sm-5{width: 95%;}
+    .modal{padding-top: 30px;}
+    /*================== Popup code end ================== */
+	
+	}
